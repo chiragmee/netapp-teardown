@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Sora:wght@700;800&family=Space+Grotesk:wght@400;500;700&family=JetBrains+Mono:wght@400;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --color-surface: #00142a;
+  --color-on-surface: #d2e4ff;
+  --color-primary: #9ecaff;
+  --color-on-primary: #003258;
+  --color-primary-container: #0070ba;
+  --color-on-primary-container: #e7f0ff;
+  --color-secondary: #4cd6fb;
+  --color-on-secondary: #003642;
+  --color-secondary-container: #00b2d6;
+  --color-on-secondary-container: #003f4e;
+  --color-tertiary: #70dba2;
+  --color-on-tertiary: #003822;
+  --color-tertiary-container: #007d50;
+  --color-on-tertiary-container: #bcffd5;
+  --color-error: #ffb4ab;
+  --color-on-error: #690005;
+  --color-error-container: #93000a;
+  --color-on-error-container: #ffdad6;
+  --color-surface-container: #04203b;
+  --color-surface-container-low: #001c37;
+  --color-surface-container-lowest: #000f21;
+  --color-surface-container-high: #122b46;
+  --color-surface-container-highest: #1e3652;
+  --color-surface-bright: #233a56;
+  --color-surface-dim: #00142a;
+  --color-outline: #8a919c;
+  --color-outline-variant: #404751;
+
+  --font-headline: "Sora", "Inter", sans-serif;
+  --font-body: "Inter", sans-serif;
+  --font-label: "Space Grotesk", sans-serif;
+  --font-mono: "JetBrains Mono", monospace;
+
+  --radius-DEFAULT: 0.125rem;
+  --radius-lg: 0.25rem;
+  --radius-xl: 0.5rem;
+  --radius-full: 0.75rem;
+}
+
+@layer base {
+  body {
+    @apply bg-surface text-on-surface font-body selection:bg-secondary selection:text-on-secondary;
+  }
+}
+
+@layer components {
+  .glass-card {
+    @apply bg-surface-container-highest/40 backdrop-blur-3xl border border-outline-variant/15;
+  }
+
+  .section-watermark {
+    @apply font-headline font-extrabold text-primary/5 text-[12rem] absolute -z-10 pointer-events-none;
+  }
+
+  .text-glow {
+    text-shadow: 0 0 12px rgba(76, 214, 251, 0.4);
+  }
+}
