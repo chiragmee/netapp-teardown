@@ -2,28 +2,26 @@
 
 A PM-style product teardown website built with React + Vite + Tailwind CSS v4.
 
-## Deploy on Replit
+## Live Demo
 
-### Step 1 — Create a new Repl
-1. Go to replit.com → Create Repl
-2. Choose **"Import from ZIP"** or **"Node.js"** template
-3. Upload this ZIP or paste files manually
+Deployed on Vercel: [netapp-teardown.vercel.app](https://netapp-teardown.vercel.app)
 
-### Step 2 — Install dependencies
-In the Replit Shell tab, run:
-```
+## Getting Started
+
+### Install dependencies
+```bash
 npm install
 ```
 
-### Step 3 — Run the dev server
-```
+### Run the dev server
+```bash
 npm run dev
 ```
 
-Replit will give you a live URL automatically. Share that URL anywhere.
+The app runs at `http://localhost:3000`.
 
-### Step 4 — Build for production (optional)
-```
+### Build for production
+```bash
 npm run build
 npm run preview
 ```
@@ -32,7 +30,7 @@ npm run preview
 - React 19 + TypeScript
 - Vite 6
 - Tailwind CSS v4
-- Framer Motion (animations)
+- Motion (animations)
 - Lucide React (icons)
 
 ## Sections
