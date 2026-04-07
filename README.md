@@ -4,7 +4,7 @@ A PM-style product teardown website built with React + Vite + Tailwind CSS v4.
 
 ## Live Demo
 
-Deployed on Vercel: [netapp-teardown.vercel.app](https://netapp-teardown.vercel.app)
+Deployed on Vercel: [netapp-teardown.vercel.app](https://netapp-teardown.vercel.app/)
 
 ## Getting Started
 
