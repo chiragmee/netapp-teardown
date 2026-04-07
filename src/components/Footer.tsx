@@ -7,7 +7,7 @@ export default function Footer() {
           <p className="font-label text-sm text-on-surface/40 max-w-md">An independent PM product analysis prepared by Chirag Mewara for a Product Manager application at NetApp, Inc. All data sourced from public analyst reports, earnings calls, and customer reviews. April 2026.</p>
         </div>
         <div className="flex flex-wrap gap-8 justify-start md:justify-end font-label text-sm">
-          <a className="text-outline hover:text-secondary underline transition-all" href="https://linkedin.com/in/chirag-mewara" target="_blank" rel="noreferrer">LinkedIn</a>
+          <a className="text-outline hover:text-secondary underline transition-all" href="https://www.linkedin.com/in/chiragmewara/" target="_blank" rel="noreferrer">LinkedIn</a>
           <a className="text-outline hover:text-secondary underline transition-all" href="https://nextleap.app/portfolio/chirag-mewara" target="_blank" rel="noreferrer">Portfolio</a>
           <a className="text-outline hover:text-secondary underline transition-all" href="mailto:chirag.mewara.18@gmail.com">Contact</a>
         </div>
